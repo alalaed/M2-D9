@@ -1,3 +1,17 @@
+
+
+@keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1}
+  }
+
+ .jumbotron {
+   animation-name: fade-in;
+   animation-duration: 4s; 
+}
+
+
+
 .card{
     position: relative;
 }
@@ -15,10 +29,9 @@ tr:nth-child(even){
 }
 
 td .btn{
-    opacity: 1;
-    transition: display 0.5s ease-in;
+    opacity: 0;   
 }
 
-td .btn:hover{
-    display: block;
+tr:hover .btn{
+    opacity: 1;
 }
