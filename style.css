@@ -29,7 +29,8 @@ tr:nth-child(even){
 }
 
 td .btn{
-    opacity: 0;   
+    opacity: 0;
+    transition: 0.3s ;   
 }
 
 tr:hover .btn{
